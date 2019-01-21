@@ -11,17 +11,14 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Spray What</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Menu</a></li>
+  <nav>
+    <div class="nav-wrapper white">
+      <a href="#" class="brand-logo">Spray What</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">NavLink1</a></li>
+        <li><a href="#">NavLink2</a></li>
+        <li><a href="#">NavLink3</a></li>
       </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -64,17 +61,23 @@
    <li>
      <div class="collapsible-header"><i class="material-icons">account_circle</i>Personal</div>
      <div class="collapsible-body">
-       <p>I am a creative with a passion for technology.</p>
-       <p>I am a creative with a passion for technology.</p>
+       <p>I am a creative with a passion for design, web development and technology in general.</p>
+       <p>I have been programming since 2017, thiugh it is a rather short sapce of time the knowledge that I have graned is astounding.</p>
      </div>
    </li>
    <li>
      <div class="collapsible-header"><i class="material-icons">account_balance</i>Academic</div>
-     <div class="collapsible-body"><span>I am a we think code_ graduate.</span></div>
+     <div class="collapsible-body">
+       <p>I am a we think code_ graduate.</p>
+       <p>I am persuing a Bachelors in Computer Science.</p>
+     </div>
    </li>
    <li>
-     <div class="collapsible-header"><i class="material-icons">business</i>Proffessional</div>
-     <div class="collapsible-body"><span>I am a junior software engineer.</span></div>
+     <div class="collapsible-header"><i class="material-icons">business</i>Professional</div>
+     <div class="collapsible-body">
+       <p>My professional experience is presently limited to school assignments all of which are primarily programming oriented.</p>
+       <p>Pending...</p>
+     </div>
    </li>
  </ul>
     </div>
@@ -130,7 +133,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/image6.jpg" alt="Unsplashed background img 2" width="50%" height="250%"></div>
+    <div class="parallax"><img src="images/web.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -140,7 +143,46 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <div class="row">
+   <form class="col s12">
+     <div class="row">
+       <div class="input-field col s6">
+         <input id="first_name" type="text" class="validate">
+         <label for="first_name">First Name</label>
+       </div>
+       <div class="input-field col s6">
+         <input id="last_name" type="text" class="validate">
+         <label for="last_name">Last Name</label>
+       </div>
+     </div>
+     <div class="row">
+       <div class="input-field col s6">
+         <input id="email" type="text" class="validate">
+         <label for="email">Email</label>
+       </div>
+       <div class="input-field col s6">
+         <input id="subject" type="text" class="validate">
+         <label for="subject">Subject</label>
+       </div>
+     </div>
+     <div class="row">
+        <form class="col s6">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2">Message</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="row center">
+        <button class="btn waves-effect black waves-light" type="submit" name="action">Send
+          <i class="material-icons right">send</i>
+        </button>
+      </div>
+   </form>
+ </div>
         </div>
       </div>
 
